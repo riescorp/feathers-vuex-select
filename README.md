@@ -1,0 +1,1 @@
+# feathers-vuex-select
