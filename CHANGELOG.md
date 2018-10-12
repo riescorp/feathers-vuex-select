@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Date format: 2029-11-02
 - Options: Added / Changed / Deprecated / Fixed / Security
 
-## [0.0.3] - 2018-10-12
+## [0.1.0] - 2018-10-12
 ### Added
 - Initial release
 - Added README.md and CHANGELOG.md
+- Modified how to include this component

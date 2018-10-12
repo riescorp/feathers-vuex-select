@@ -11,6 +11,22 @@ Select component using feathers vuex services
 
 ## Example
 
+
+### Import and register in your VM:
+
+```
+import FeathersVuexSelect from 'feathers-vuex-select'
+...
+export default {
+  ...
+  components: {
+    FeathersVuexSelect
+  },
+  ...
+}
+```
+ 
+### Use it in your template
 ```
   <FeathersVuexSelect
     v-model="address.countryId"
