@@ -1,5 +1,5 @@
 <template>
-  <feathers-vuex-data v-bind:service="serviceName" :query="query" watch="query">
+  <feathers-vuex-find v-bind:service="serviceName" :query="query" watch="query">
     <section slot-scope="{ items: instanceArray }">
       <select v-bind:value="value" v-on:input="$emit('input', $event.target.value)">
         <option v-if="optionsCaption !== ''" value="">{{ optionsCaption }}</option>
@@ -7,7 +7,7 @@
         <option v-for="instance in instanceArray" v-bind:value="instance[optionsValue]">{{ instance[optionsText] }}</option>
       </select>
     </section>
-  </feathers-vuex-data>
+  </feathers-vuex-find>
 </template>
 <script>
 /**

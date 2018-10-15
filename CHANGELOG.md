@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Date format: 2029-11-02
 - Options: Added / Changed / Deprecated / Fixed / Security
 
+## [0.1.1] - 2018-10-15
+### Changed
+- `feathers-vuex-data` is now `feathers-vuex-find` (or `feathers-vuex-get`)
+
 ## [0.1.0] - 2018-10-12
 ### Added
 - Initial release
